@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>縦書き執筆アプリ</title>
+    <style>
+        /* スタイルを追加 */
+        body {
+            font-family: "リュウミン L", "YuMincho", "Hiragino Mincho Pro", "MS Mincho", serif;
+            writing-mode: vertical-rl; /* 縦書き */
+            width: 80vw; /* 画面幅の80% */
+            height: 80vh; /* 画面高さの80% */
+            margin: 10vh auto; /* 上下中央寄せ */
+            padding: 1rem;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            width: 100%; /* テキストエリアを画面幅いっぱいに広げる */
+            height: 100%; /* テキストエリアを画面高さいっぱいに広げる */
+            font-size: 16px; /* 文字の大きさを調整 */
+        }
+    </style>
+</head>
+<body>
+    <h1>縦書き執筆アプリ</h1>
+    <textarea id="writing_area" rows="10" cols="30"></textarea>
+
+    <script>
+        // ここに追加のJavaScriptコードを記述できます
+    </script>
+</body>
+</html>
